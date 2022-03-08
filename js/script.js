@@ -86,7 +86,7 @@ $(function () {
   function ModalOpen() {
     $(".modal-bg").fadeIn();
     $(".modal-container").fadeIn();
-    $("body").addClass("no-scroll");
+    $(".body").addClass("no-scroll");
   }
 
   function ModalClose() {
