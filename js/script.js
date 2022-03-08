@@ -60,11 +60,13 @@ $(function () {
   function slideOpen() {
     $(".mobile-bg").fadeIn();
     $(".mobile-links").fadeIn();
+    $(".body").addClass("no-scroll");
   }
 
   function slideClose() {
     $(".mobile-bg").fadeOut();
     $(".mobile-links").fadeOut();
+    $(".body").removeClass("no-scroll");
   }
 
   // //===========================
