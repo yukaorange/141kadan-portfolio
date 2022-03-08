@@ -99,6 +99,11 @@
     margin-left: 0;
   }
 }
+@media screen and (max-width: 599px) {
+  .ph-btn {
+    display: none;
+  }
+}
 .ph-btn:before {
   position: absolute;
   top: 16px;

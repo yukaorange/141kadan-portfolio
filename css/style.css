@@ -578,6 +578,11 @@ img {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 599px) {
+  .header-btn {
+    display: none;
+  }
+}
 .header-btn:before {
   position: absolute;
   top: 16px;
@@ -1272,6 +1277,11 @@ body.no-scroll {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 599px) {
+  .sh-btn {
+    display: none;
+  }
+}
 .sh-btn:before {
   position: absolute;
   top: 16px;
@@ -1512,7 +1522,7 @@ body.no-scroll {
 }
 @media screen and (max-width: 1024px) {
   .menu-container {
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
 }
 .menu-item {
@@ -1706,7 +1716,7 @@ body.no-scroll {
 }
 @media screen and (max-width: 1024px) {
   .menu-item:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 }
 .menu-image {
