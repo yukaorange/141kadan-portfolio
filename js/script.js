@@ -1,4 +1,16 @@
 $(function () {
+  // loading画面
+  $(window).on('load', function () {
+    endLoading()
+  })
+  // ローディング非表示処理
+  function endLoading() {
+    $('.loading').fadeOut(3000)
+  }
+
+
+
+
   // 日付選択カレンダー
   // 選択可能日（始期）を設定
   let minDate = new Date();
